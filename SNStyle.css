@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imglogo
+{
+    width: 100px;
+    height: 100px;
+    margin: -10px;
+    float: left;
+}
+header
+{
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    float: right;
+}
+nav ul li
+{
+    margin-right: 50px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial';
+    font-size: 22px;
+    padding: 1px ;
+}
+
+footer
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5);
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+.imgfinal
+{
+    max-width: 100px;
+    height: auto;
+}
+.divisao
+{
+    width: 2px;
+    background-color: white;
+    height: 80px; 
+}
+.sobrenossec
+{
+    padding: 40px 0;
+}
+.sobrenosbox
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+.sobrenoslogo
+{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.sobrenoslogo img
+{
+    width: 200px;
+    height: auto;
+}
+.sobrenostxt
+{
+    border-left: 2px solid #000000;
+    padding-left: 12px;
+    font-family: 'JetBrains Mono';
+}
+.sobrenostxt p
+{
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #000000;
+    text-align: justify;
+}
+.favicon
+{
+    width: 150px;
+    height: 150px;
+}

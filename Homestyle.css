@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imglogo
+{
+    width: 100px;
+    height: 100px;
+    margin: -10px;
+    float: left;
+}
+header
+{
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    float: right;
+}
+nav ul li
+{
+    margin-right: 50px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial';
+    font-size: 22px;
+    padding: 1px ;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5);
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+.imgfinal
+{
+    max-width: 100px;
+    height: auto;
+}
+.divisao
+{
+    width: 2px;
+    background-color: white;
+    height: 80px; 
+}
+.video
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.textoinimainpage
+{
+    width: 70%;                
+    max-width: 900px;
+    text-align: justify;      
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ffffff;
+    margin: 10px auto;
+}
+.boxtemaprinc
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5);
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.imgcontprinc
+{
+    width: 100px;
+    height: 100px;
+}
+.boximgdivs
+{
+    width: 100px;         
+    height: 100px;
+    border-radius: 12px; 
+    overflow: hidden; 
+}
+.infobox
+{
+    display: none;
+    background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease-in-out;
+    animation: pop .5s ease-out;
+}
+.infobox ul
+{
+    margin: 18px 2px 2px;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 22px;
+}
+.infobox ul, li
+{
+    margin-bottom: 10px;
+}
+
+@keyframes pop {
+  from { transform: translateY(8px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
